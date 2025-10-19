@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style/animate.css" />
     <link rel="stylesheet" href="style/style.css" />
     <title>Pavel Strelchenia</title>
   </head>
@@ -33,17 +34,172 @@
         </div>
         <div class="hero__content">
           <div class="hero__text">
-            <span class="hero__subtitle">Фрилансер</span>
-            <h1 class="hero__title">Павел Стрельченя</h1>
-            <p class="hero__description">
+            <span class="hero__subtitle wow fadeInRight data-wow-delay:0.2s"
+              >Фрилансер</span
+            >
+            <h1 class="hero__title wow fadeInRight data-wow-delay:0.4s">
+              Павел Стрельченя
+            </h1>
+            <p class="hero__description wow fadeInRight data-wow-delay:0.6s">
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <button class="hero__button button">Бесплатная консультация</button>
+            <button
+              class="hero__button button wow fadeInRight data-wow-delay:0.8s"
+            >
+              Бесплатная консультация
+            </button>
           </div>
-          <div class="hero__avatar"></div>
+          <div class="hero__avatar wow fadeIn data-wow-delay: 2s"></div>
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="features section">
+        <div class="container">
+          <h2 class="section__title">Со мной удобно работать</h2>
+          <div class="features__block">
+            <div class="features__item">
+              <img
+                src="assets/features/offer-img.svg"
+                alt="По договору"
+                class="features__img"
+              />
+              <h3 class="features__title">По договору</h3>
+              <p class="features__desc">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features__item">
+              <img
+                src="assets/features/deadline-img.svg"
+                alt="Точно в срок"
+                class="features__img"
+              />
+              <h3 class="features__title">Точно в срок</h3>
+              <p class="features__desc">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="features__item">
+              <img
+                src="assets/features/agreement-img.svg"
+                alt="Ценник под вас"
+                class="features__img"
+              />
+              <h3 class="features__title">Ценник под вас</h3>
+              <p class="features__desc">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="features__item">
+              <img
+                src="assets/features/steps-img.svg"
+                alt="Премежуточные итоги"
+                class="features__img"
+              />
+              <h3 class="features__title">Премежуточные итоги</h3>
+              <p class="features__desc">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features__item">
+              <img
+                src="assets/features/storage-img.svg"
+                alt="Хостинг и домен "
+                class="features__img"
+              />
+              <h3 class="features__title">Хостинг и домен</h3>
+              <p class="features__desc">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features__item">
+              <img
+                src="assets/features/conversation-img.svg"
+                alt="Не брошу после сдачи"
+                class="features__img"
+              />
+              <h3 class="features__title">Не брошу после сдачи</h3>
+              <p class="features__desc">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section">
+      <div class="container">
+        <h2 class="section__title">Свяжитесь со мной</h2>
+        <div class="contacts__block">
+          <form action="#" class="contacts__form">
+            <h4 class="form__title">
+              Можете просто оставить заявку, я позвоню вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input__name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input__phone"
+              placeholder="Ваш телефон"
+            />
+            <button class="button form__button">Бесплатная консультация</button>
+          </form>
+
+          <div class="contacts__text">
+            <div class="contacts__data">
+              <div class="contacts__phone">
+                <h4 class="contacts__title">Телефон</h4>
+                <a href="tel:+79991234567" class="contacts__links"
+                  >+7 999 123-45-67</a
+                >
+              </div>
+              <div class="contacts__email">
+                <h4 class="contacts__title">Почта</h4>
+                <a href="mailto:ivanov@mail.ru" class="contacts__links"
+                  >ivanov@mail.ru</a
+                >
+              </div>
+              <div class="contacts__socials">
+                <h4 class="contacts__title">Соцсети</h4>
+                <a href="#" class="contacts__links">t.me/ivanov</a>
+                <a href="#" class="contacts__links">vk.me/ivanov</a>
+                <a href="#" class="contacts__links">fb.me/ivanov</a>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/PavelStrelchenia" class="social-link"
+                ><img src="assets/social/github.svg" alt="github" /></a
+              ><a href="https://x.com/" class="social-link"
+                ><img src="assets/social/twitter.svg" alt="twitter" /></a
+              ><a href="https://www.instagram.com/" class="social-link"
+                ><img src="assets/social/instagram.svg" alt="instagram" /></a
+              ><a
+                href="https://www.facebook.com/?locale=ru_RU"
+                class="social-link"
+                ><img src="assets/social/facebook.svg" alt="facebook"
+              /></a>
+            </div>
+
+            <a href="#" class="contacts__policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
